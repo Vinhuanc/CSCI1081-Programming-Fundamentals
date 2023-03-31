@@ -1,0 +1,1 @@
+This repository contains all assignments to fulfill Century College(MN) course CSCI1081-71 taught by Matthew Sanders.

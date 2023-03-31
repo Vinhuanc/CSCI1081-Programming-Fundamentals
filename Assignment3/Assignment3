@@ -1,0 +1,75 @@
+Computer Science 1081 – Assignment #03
+Program #1
+A movie theater only keeps a percentage of the revenue earned from ticket sales. The remainder goes to the movie distributor. Write a program that calculates a theater’s gross and net box office profit for a night. The program should ask for the name of the movie, and how many adult and child tickets were sold. (The price of an adult ticket is $10.00 and a child’s ticket is $6.00).
+• Use constants for values that aren’t supplied by the user (such as the prices and profit margin)
+Sample Execution:
+Please enter the movie name: St. Patrick's Revenge
+Please enter the number of adult tickets sold: 5621
+Please enter the number of child tickets sold: 125
+Movie Name:
+Adult Tickets Sold:
+Child Tickets Sold:
+Gross Box Office Profit:
+Net Box Office Profit:
+Amount Paid to Distributor:
+Press any key to continue . . .
+Things to Test/verify:
+"St. Patrick's Revenge"
+      5621
+       125
+$ 56960.00
+$ 11392.00
+$ 45568.00
+- What happens if the movie name is more than a single word?
+- Are your outputs formatted for their units?
+- Did you use constants as specified?
+
+Program #2
+A retail company must file a monthly sales tax report listing the sales for the month and the amount of sales tax collected. Write a program that asks for the month, the year, and the total amount collected at the cash register (that is, sales plus sales tax). Assume the state sales tax is 4 percent and the county sales tax is 2 percent.
+If the total amount collected is known and the total sales tax is 6 percent, the amount of product sales may be calculated as: S = (T/1.06). S is the product sales and T is the total income.
+• Display the year next to the month as shown in the example below
+• Use const for the tax rates
+Sample Execution:
+Please enter the Month: January
+Please enter the year: 2017
+Please enter the total amount collected: $482
+Month: January 2017
+--------------------
+Total Collected:        $
+Sales:                  $
+County Sales Tax:
+State Sales Tax:
+Total Sales Tax:
+Press any key to continue . . .
+Things to Test/verify:
+- What happens if the month name is more than a single word?
+- What happens if the year is not entered as an integer?
+- Are your outputs formatted for their units?
+- Did you use constants as specified?
+$ $ $
+482.00
+454.72
+  9.09
+ 18.19
+ 27.28
+
+Program #3
+Assuming there are no deposits other than the original investment, the balance in a savings account after one year may be calculated as: Amount = Principal * (1 + (Rate/T))^T. Principal is the balance in the savings account, Rate is the interest rate, and T is the number of times the interest is compounded during a year (T is 4 if the interest is compounded quarterly). Write a program that asks for the principal, the interest rate, and the number of times the interest is compounded.
+Sample Execution:
+Please enter the Principal Balance: $30284
+Please enter the interest rate (as a decimal): 0.03
+Please enter the number of times interest is compounded: 120
+Interest Rate:
+Times Compounded:
+Principal:
+Interest:
+Amount in Savings:
+Press any key to continue . . .
+        3%
+       120
+$ 30284.00
+$   922.17
+$ 31206.17
+Things to Test/verify:
+- Are your outputs formatted for their units?
+- What happens if the interest rate is a fractional (real) number?

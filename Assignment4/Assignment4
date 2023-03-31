@@ -1,0 +1,134 @@
+Computer	Science	1081	– Assignment	#04
+Program	#1	
+Write	a	program	that	asks	the	user	to	enter	a	number	within	the	range	of	1	through	10.		Use	a	
+switch	statement	to	display	the	Roman	numeral	version	of	that	number.		Do	not	accept	a	
+number	less	than	1	or	greater	than	10.	
+• Use	a	switch statement
+• Make	sure	that	you	tell	the	user	if	their	input	is	not	accepted
+Sample	Outputs:
+Enter a number (1-10): 5
+The Roman numeral version of 5 is V
+Press any key to continue . . .
+========================================
+Enter a number (1-10): 15
+Enter a number in the range 1 through 10
+Press any key to continue . . .
+Program	#2
+A	software	company	sells	a	package	that	retails	for	$99.		Quantity	discounts	are	given	according	
+to	the	following	table:
+Quantity Discount
+10-19 20%
+20-49 30%
+50-99 40%
+100	or	more 50%
+Write	a	program	that	asks	for	the	number	of	units	sold	and	computes	the	total	cost	of	the	
+purchase.		Make	sure	the	number	of	units	is	greater	than	0.
+• Use	only	the	if	statement,	don’t	use	a	switch or	else block
+• Note: the	auto-checker	on	this	program	does	take	some	time	(a	few	seconds on	the	college’s	
+computers)	to	process	the	code	checks
+Sample	Outputs:
+How many units were sold? 48
+The total cost of the purchase is $3326.40
+Press any key to continue . . .
+========================================
+How many units were sold? -1
+Error: Units sold must be positive integer
+Press any key to continue . . .
+Test	the	boundaries:	does	the	result	match	expectations	when	you	are	1	unit	below, and	1	
+unit above	the	threshold	(e.g.	Quantity	9	and	10,	getting	the	correct	discount	values)
+Program	#3
+A	bank	charges	$10	per	month	plus	the	following	check	fees	for	a	commercial	checking	account:
+$0.10	each	for	fewer	than	20	checks
+$0.08	each	for	20-39	checks
+$0.06	each	for	40-59	checks
+$0.04	each	for	60	or	more	checks
+The	bank	also	charges	an	extra	$15	if	the	balance	of	the	account	falls	below	$400	(before	any	
+check	fees	are	applied).		Write	a	program	that	asks	for	the	beginning	balance	and	the	number	
+of	checks	written.		Compute	and	display	the	bank’s	service	fees	for	the	month.		Do	not	accept	a	
+negative	value	for	the	number	of	checks written.		If a	negative	value	is	given	for	the	beginning	
+balance,	display	and	urgent	message	indicating	the	account	is	overdrawn.
+• Use	only	the	if	statement
+• No	message	needs	to	be	displayed	if	the	account	balance	falls	below	the	$400	threshold,	
+just	add	the	appropriate	fee	into	the	total.
+• For	the	overdrawn	balance	portion	of	the	problem,	determine	if	the	fee	will	overdraw	
+the	account.		However, display	the	message	about	overdrawing	the	account	before	
+displaying	what	the	fees	are.		For	example,	if	the	account	has	$9.99	and	the	fees	will	
+total	to	$10,	the	account	will	be	overdrawn.	
+Sample	Outputs:
+Enter the following information about your checking account
+Beginning balance: $1562
+Number of checks written: 20
+The bank fee this month is $11.60
+Press any key to continue . . .
+========================================
+Enter the following information about your checking account
+Beginning balance: $10
+Number of checks written: 2
+Your account is overdrawn!
+The bank fee this month is $25.20
+Press any key to continue . . .
+Program	#4
+Write	a	program	that	displays	the	following	menu	(see	below).	
+- If	the	user	enters	1,	the	program	should	ask	for	the	radius	of	the	circle	and	then	display	its	
+area.		Use	the	formula	area	=	pi*r^2.		Use	3.14159	for	pi	and	the	radius	of	the	circle	for	r.	
+- If	the	user	enters	2,	the	program	should	ask	for	the	length	and width	of	the	rectangle	and	then	
+display	he	rectangle’s	area.		Use	the	formula	area	=	length	*	width.
+- If	the	user	enters	3,	the	program	should	ask	for	the	length	of	the	triangle’s	base	and	its	
+height,	and	then	display	is	area.		Use	the	formula	area	=	base	*	height	*	(1/2).
+- If	the	user	enters	4,	the	program	should	end
+- Display	an	error	message	if	the	user	enters	a	number	outside	the	range	of	1	through	4	when	
+selecting	an	item	from	the	menu.		Do	not	accept	negative	values	for	the	circle’s	radius,	the	
+rectangle’s	length	or	width,	or	the	triangle’s	base	or	height.
+• Use	a	switch statement	to	evaluate	the	user	menu	choice
+• Do	input	validation	for	the	correct	menu	choice
+• Define	Pi	as	a	constant	to	5 decimal	places	(3.14159)
+Sample	Outputs:
+Geometry Calculator
+1. Calculate the Area of a Circle
+2. Calculate the Area of a Rectangle
+3. Calculate the Area of a Triangle
+4. Quit
+Enter your choice (1-4): 1
+Enter the Radius: 5
+The area is: 78.5397
+Press any key to continue . . .
+Geometry Calculator
+1. Calculate the Area of a Circle
+2. Calculate the Area of a Rectangle
+3. Calculate the Area of a Triangle
+4. Quit
+Enter your choice (1-4): 2
+Enter the length: 5
+Enter the width: 4
+The area is: 20
+Press any key to continue . . .
+========================================
+Geometry Calculator
+1. Calculate the Area of a Circle
+2. Calculate the Area of a Rectangle
+3. Calculate the Area of a Triangle
+4. Quit
+Enter your choice (1-4): 3
+Enter the base: 6
+Enter the height: 4
+The area is: 12
+Press any key to continue . . .
+========================================
+Geometry Calculator
+1. Calculate the Area of a Circle
+2. Calculate the Area of a Rectangle
+3. Calculate the Area of a Triangle
+4. Quit
+Enter your choice (1-4): 4
+Exiting
+Press any key to continue . . . 
+========================================
+Geometry Calculator
+1. Calculate the Area of a Circle
+2. Calculate the Area of a Rectangle
+3. Calculate the Area of a Triangle
+4. Quit
+Enter your choice (1-4): 5
+You must choose from the a listed
+option
+Press any key to continue . . .
